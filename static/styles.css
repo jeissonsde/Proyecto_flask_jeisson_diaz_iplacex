@@ -1,0 +1,56 @@
+body {
+    background-color: black; /* Fondo negro*/
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente */
+    text-align: center; /* Centrar texto */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block; /* formulario no ocupeelancho */
+    background-color: #333; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 10px white; /* Sombra blanca */
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px; /* Bordes redondeados */
+    border: none;
+    width: 90%; /* Para que se adapten al formulario */
+}
+
+button {
+    background-color: white; /* Botón con fondo blanco */
+    color: black; /* Texto negro */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Fondo gris al pasar el cursor */
+    color: white; /* Texto blanco */
+}
+
+a {
+    color: #00ff00; /* Verde brillante */
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el cursor */
+}
